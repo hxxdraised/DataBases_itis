@@ -1,0 +1,72 @@
+{
+    "db": {
+        "artists": {
+            "0": {
+                "name": "ABBA",
+                "desc": "*description*"
+            },
+            "1": {
+                "name": "Boney M.",
+                "desc": "desc"
+            }
+        },
+        "albums": {
+            "0": {
+                "name": "Voulez-Vouz",
+                "artist_id": 0,
+                "music_ids": 0,
+                "release_date": "1979-01-01",
+                "listening_counter": 0
+            },
+            "1": {
+                "name": "Take The Heat Off Me",
+                "artist_id": 1,
+                "music_ids": 1,
+                "release_date": "1976-01-01",
+                "listening_counter": 0
+            }
+        },
+        "musics": {
+            "0": {
+                "name": "Gimme! Gimme! Gimme!",
+                "artist_id": 0,
+                "duration": 4.52,
+                "release_date": "1979-01-01",
+                "listening_counter": 0
+            },
+            "1": {
+                "name": "Daddy Cool",
+                "artist_id": 1,
+                "duration": 3.28,
+                "release_date": "1976-01-01",
+                "listening_counter": 0
+            }
+        },
+        "users": {
+            "0": {
+                "nickname": "Murat",
+                "login": "itiskfu",
+                "password": "qwerty123",
+                "favorite_artists": [
+                    0,
+                    1
+                ],
+                "playlists_ids": [
+                    0
+                ]
+            }
+        },
+        "playlists": {
+            "0": {
+                "name": "My retro playlist",
+                "desc": "retro songs",
+                "music_ids": [
+                    0,
+                    1
+                ],
+                "duration": 7.799999999999999,
+                "user_id": 0
+            }
+        }
+    }
+}
